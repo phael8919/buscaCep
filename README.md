@@ -30,3 +30,6 @@ print(f'Logradouro: {dic["logradouro"]}'
       print(f'Bairro: {dic["bairro"]}')  
       print(f'Cidade: {dic["localidade"]}')
       print(f'UF: {dic["uf"]}'))
+      
+## Busca endereço pelo CEP - Interface Gráfica
+No arquivo "cep_endereco.py", uma janela é exibida para o usuário digitar o número de CEP e o endereço é exibido.
