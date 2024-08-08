@@ -1,5 +1,5 @@
 # buscaCep
-Descrição: Script Python para buscar o endereço pelo número do Cep
+Descrição: Script Python para buscar o endereço pelo número do CEP
 
 - Passo 01: Para realizar essa tarefa, primeiro são importados as bibliotecas "requests" e "json".
 
@@ -17,7 +17,7 @@ cep = input('Digite o cep: ')
 
 - Passo 04: Na variável "url" é feita a captura da consulta do cep concatenando a url da API dos Correios com o CEP pesquisado. Para isso é utilizada biblioteca "requests" para buscar a consulta.
 
-url = requests.get('https://viacep.com.br/ws/'+cep+'/json/').content
+url = requests.get('https://viacep.com.br/ws/'+cep+'/json/').content)
 
 
 - Passo 05: A variável "dic" utiliza a biblioteca "json" para carregar a consulta no formato de dicionário.
